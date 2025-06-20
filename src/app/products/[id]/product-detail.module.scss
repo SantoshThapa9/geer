@@ -1,0 +1,170 @@
+.container {
+  background-color: var(--background-color);
+  padding: 2rem;
+  font-family: "Segoe UI", sans-serif;
+  color: var(--text-color);
+  min-height: 100vh;
+}
+
+.loading,
+.error {
+  text-align: center;
+  padding: 4rem;
+  color: var(--text-color2);
+}
+
+.breadcrumb {
+  margin: 1rem;
+
+  .breadcrumbLink {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: 500;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+.productDetail {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: var(--background-color2);
+  border: var(--border-color);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.imageSection {
+  flex: 1 1 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.imageContainer {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.productImage {
+  width: clamp(100px, 20vw, 200px);
+  height: auto;
+  border-radius: 10px;
+}
+
+.infoSection {
+  flex: 1 1 60%;
+  padding: 2rem;
+}
+
+.productHeader {
+  margin-bottom: 1.5rem;
+
+  .category {
+    background-color: var(--accent-color);
+    padding: 0.3rem 0.7rem;
+    border-radius: 5px;
+    font-size: 0.9rem;
+  }
+
+  .productName {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+    color: var(--text-color);
+  }
+
+  .price {
+    font-size: 1.5rem;
+    color: var(--accent-color2);
+    font-weight: bold;
+  }
+}
+
+.description {
+  margin: 1.5rem 0;
+
+  h3 {
+    margin-bottom: 0.5rem;
+    color: var(--text-color2);
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+}
+
+.productMeta {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+
+  .metaItem {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.95rem;
+
+    .metaLabel {
+      color: var(--text-color2);
+      font-weight: 600;
+    }
+
+    .metaValue {
+      color: var(--text-color);
+    }
+  }
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+
+  button {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 6px;
+    background-color: var(--accent-color);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: var(--button-hover);
+    }
+  }
+
+  .buyNowButton {
+    background-color: var(--accent-color2);
+  }
+}
+
+.adminActions {
+  margin-top: 2rem;
+
+  .deleteButton {
+    padding: 0.5rem 1.25rem;
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: darkred;
+    }
+  }
+}
+
+.backButton {
+  margin-top: 2rem;
+  display: inline-block;
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: bold;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

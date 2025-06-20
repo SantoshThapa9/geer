@@ -1,0 +1,187 @@
+.footer {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  .subscribe {
+    margin-bottom: 40px;
+    text-align: center;
+
+    h2 {
+      font-size: 28px;
+      font-weight: 600;
+      margin-bottom: 20px;
+      color: var(--accent-color2);
+    }
+
+    form {
+      display: inline-flex;
+      gap: 12px;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      label {
+        svg {
+          color: var(--accent-color);
+        }
+      }
+
+      input {
+        padding: 12px 16px;
+        width: 320px;
+        max-width: 100%;
+        border: 1px solid var(--border-color);
+        border-radius: 6px;
+        font-size: 16px;
+        color: var(--text-color);
+        background-color: var(--background-color2);
+        transition: border-color 0.3s ease;
+
+        &:focus {
+          border-color: var(--accent-color);
+          outline: none;
+          background-color: #fff;
+        }
+      }
+
+      button {
+        padding: 12px 24px;
+        border: none;
+        border-radius: 6px;
+        background-color: var(--accent-color);
+        font-weight: 600;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+          background-color: var(--button-hover);
+        }
+      }
+    }
+  }
+
+  .companyInfo {
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: var(--text-color2);
+
+    .logo {
+      text-decoration: none;
+      font-family: var(--font-dancing);
+      font-optical-sizing: auto;
+      display: flex;
+      align-items: baseline;
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+
+    .gradientText {
+      background: linear-gradient(
+        135deg,
+        var(--accent-color),
+        var(--accent-color2)
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      font-weight: 700;
+
+      &:first-child {
+        font-size: 2.1rem;
+      }
+
+      &:last-child {
+        font-size: 1.4rem;
+      }
+    }
+
+    address {
+      font-style: normal;
+      line-height: 1.6;
+      margin-bottom: 15px;
+      a {
+        color: var(--accent-color2);
+        text-decoration: none;
+        font-weight: 600;
+
+        &:hover {
+          text-decoration: underline;
+          color: var(--accent-color2);
+        }
+      }
+    }
+
+    .social {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      margin-top: 15px;
+
+      a {
+        font-size: 20px;
+        color: var(--accent-color2);
+        transition: color 0.3s ease;
+
+        &:hover {
+          color: var(--accent-color2);
+        }
+      }
+    }
+  }
+
+  .links {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    text-align: left;
+
+    div {
+      h4 {
+        color: var(--accent-color2);
+        margin-bottom: 15px;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+          margin-bottom: 12px;
+          color: var(--text-color2);
+          font-weight: 300;
+          cursor: pointer;
+          transition: color 0.3s ease;
+          font-size: clamp(10px, 1vw, 20px);
+
+          &:hover {
+            color: var(--accent-color);
+          }
+        }
+      }
+    }
+  }
+
+  hr {
+    border: none;
+    height: 1px;
+    background-color: var(--border-color);
+    margin-bottom: 30px;
+  }
+  .portfolio {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .copyright {
+    font-size: 14px;
+    color: var(--text-color2);
+    text-align: center;
+  }
+}

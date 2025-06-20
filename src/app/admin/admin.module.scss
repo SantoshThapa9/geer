@@ -1,0 +1,141 @@
+.container {
+  background-color: var(--background-color2);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 3rem 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--text-color);
+}
+
+.adminPanel {
+  background: var(--code-nav);
+  border-radius: 12px;
+  padding: 2.5rem 3rem;
+  width: 100%;
+  max-width: 600px;
+  border: var(--border-color);
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+  color: var(--accent-color);
+}
+
+.subtitle {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  color: var(--text-color2);
+  font-weight: 500;
+}
+
+.message {
+  margin-bottom: 1.5rem;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-align: center;
+  user-select: none;
+}
+
+.success {
+  background-color: #d9f6f5;
+  color: var(--accent-color);
+  border: 1.5px solid var(--accent-color);
+}
+
+.error {
+  background-color: #ffd7d7;
+  color: #cc0000;
+  border: 1.5px solid #cc0000;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: var(--text-color2);
+}
+
+.input,
+.select,
+.textarea {
+  padding: 0.65rem 1rem;
+  border: 1.5px solid var(--border-color);
+  border-radius: 8px;
+  font-size: 1rem;
+  color: var(--text-color);
+  background-color: var(--background-color2);
+  font-family: inherit;
+}
+
+.input:focus,
+.select:focus,
+.textarea:focus {
+  outline: none;
+  border-color: var(--accent-color);
+}
+
+.textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.formActions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  justify-content: flex-end;
+}
+
+.submitButton,
+.cancelButton {
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  user-select: none;
+  font-family: inherit;
+}
+
+.submitButton {
+  background-color: var(--accent-color);
+  color: white;
+}
+
+.submitButton:hover:not(:disabled) {
+  background-color: var(--button-hover);
+}
+
+.submitButton:disabled {
+  background-color: #a0e5e3;
+  cursor: not-allowed;
+}
+
+.cancelButton {
+  background-color: var(--background-color);
+  color: var(--accent-color2);
+  border: 1.5px solid var(--accent-color2);
+}
+
+.cancelButton:hover {
+  background-color: var(--hover-background);
+  color: var(--accent-color);
+  border-color: var(--accent-color);
+}

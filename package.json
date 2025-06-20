@@ -2,20 +2,26 @@
   "name": "geer",
   "version": "0.1.0",
   "private": true,
+  "description": "Geer - Modern e-commerce store offering amazing products at great prices with fast shipping.",
+  "author": "Santosh Thapa",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postbuild": "next-sitemap"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^2.8.2",
+    "next": "15.3.4",
+    "next-sitemap": "^4.2.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.3.4"
+    "react-icons": "^5.5.0",
+    "react-redux": "^9.2.0",
+    "sass": "^1.89.2"
   },
   "devDependencies": {
-    "eslint": "^9",
-    "eslint-config-next": "15.3.4",
     "@eslint/eslintrc": "^3"
   }
 }

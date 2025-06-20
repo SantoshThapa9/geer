@@ -1,0 +1,139 @@
+[
+  {
+    "id": "1",
+    "name": "Classic Diamond Ring",
+    "price": 24999,
+    "oldPrice": 29999,
+    "imageUrl": "/photos/engagement_ring_collection.webp",
+    "description": "A timeless solitaire diamond ring, perfect for engagements and special occasions.",
+    "category": "Rings",
+    "collection": "Engagement",
+    "createdAt": "2024-06-20T10:00:00.000Z"
+  },
+  {
+    "id": "2",
+    "name": "Elegant Diamond Earrings",
+    "price": 17999,
+    "oldPrice": 21999,
+    "imageUrl": "/photos/Earring.webp",
+    "description": "Sparkling diamond earrings to add elegance to any look.",
+    "category": "Earrings",
+    "collection": "Classic",
+    "createdAt": "2024-06-20T10:10:00.000Z"
+  },
+  {
+    "id": "3",
+    "name": "Graceful Diamond Necklace",
+    "price": 39999,
+    "imageUrl": "/photos/Necklaces.webp",
+    "description": "A graceful necklace with a stunning diamond pendant.",
+    "category": "Necklace",
+    "collection": "Classic",
+    "createdAt": "2024-06-20T10:20:00.000Z"
+  },
+  {
+    "id": "4",
+    "name": "Diamond Bangles Set",
+    "price": 24999,
+    "oldPrice": 29999,
+    "imageUrl": "/photos/Bangles.webp",
+    "description": "A set of diamond-studded bangles for a traditional yet modern look.",
+    "category": "Bracelets and Bangles",
+    "collection": "Casual",
+    "createdAt": "2024-06-20T10:30:00.000Z"
+  },
+  {
+    "id": "5",
+    "name": "Chic Diamond Bracelet",
+    "price": 14999,
+    "oldPrice": 18999,
+    "imageUrl": "/photos/Bracelets.webp",
+    "description": "A chic bracelet featuring a row of sparkling diamonds.",
+    "category": "Bracelets and Bangles",
+    "collection": "Delicate",
+    "createdAt": "2024-06-20T10:40:00.000Z"
+  },
+  {
+    "id": "6",
+    "name": "Pendant & Mangalsutra",
+    "price": 12999,
+    "imageUrl": "/photos/Pendants.webp",
+    "description": "A beautiful diamond pendant and mangalsutra for special occasions.",
+    "category": "Pendant And Mangalsutra",
+    "collection": "Classic",
+    "createdAt": "2024-06-20T10:50:00.000Z"
+  },
+  {
+    "id": "7",
+    "name": "Men's Diamond Collection",
+    "price": 19999,
+    "oldPrice": 24999,
+    "imageUrl": "/photos/Men_s_collection.webp",
+    "description": "Exclusive diamond jewelry for men, combining style and sophistication.",
+    "category": "Other Jewellery",
+    "collection": "Classic",
+    "createdAt": "2024-06-20T11:00:00.000Z"
+  },
+  {
+    "id": "9",
+    "name": "Wedding Diamond Set",
+    "price": 49999,
+    "oldPrice": 59999,
+    "imageUrl": "/photos/Wedding_colletion.webp",
+    "description": "A luxurious diamond set for weddings and grand celebrations.",
+    "category": "Other Jewellery",
+    "collection": "Engagement",
+    "createdAt": "2024-06-20T11:20:00.000Z"
+  },
+  {
+    "id": "10",
+    "name": "Under 9999 Diamond Piece",
+    "price": 8999,
+    "oldPrice": 11999,
+    "imageUrl": "/photos/Under_9999.webp",
+    "description": "Affordable diamond jewelry under 9999.",
+    "category": "Other Jewellery",
+    "collection": "Casual",
+    "createdAt": "2024-06-20T11:30:00.000Z"
+  },
+  {
+    "id": "11",
+    "name": "Under 14999 Diamond Piece",
+    "price": 13999,
+    "imageUrl": "/photos/Under_14999.webp",
+    "description": "Stunning diamond jewelry under 14999.",
+    "category": "Other Jewellery",
+    "collection": "Delicate",
+    "createdAt": "2024-06-20T11:40:00.000Z"
+  },
+  {
+    "id": "12",
+    "name": "Under 24999 Diamond Piece",
+    "price": 22999,
+    "oldPrice": 27999,
+    "imageUrl": "/photos/Under_24999.webp",
+    "description": "Elegant diamond jewelry under 24999.",
+    "category": "Other Jewellery",
+    "collection": "Classic",
+    "createdAt": "2024-06-20T11:50:00.000Z"
+  },
+  {
+    "id": "13",
+    "name": "Under 39999 Diamond Piece",
+    "price": 38999,
+    "imageUrl": "/photos/Under_39999.jpg",
+    "description": "Premium diamond jewelry under 39999.",
+    "category": "Other Jewellery",
+    "collection": "Cocktail",
+    "createdAt": "2024-06-20T12:00:00.000Z"
+  },
+  {
+    "id": "1750418202876",
+    "name": "Diamond Ring",
+    "price": 99999,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcROCUVQkeLWMTKnjn9noAOYi9ME2chQX0g6nlw2TgaVFbRiF8vgm4a_NAOzaUEI4xnhidTdlni8Q7PztxUq4lYwVlwK6J2D3DJ8vaLuQ-1OGDaxVsbgDimf1rw",
+    "description": "Diamond Ring 18 KT Yellow Gold Jewellery Diamond Vanki Ring for Women.",
+    "category": "Electronics",
+    "createdAt": "2025-06-20T11:16:42.876Z"
+  }
+]

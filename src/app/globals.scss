@@ -1,0 +1,79 @@
+:root {
+  --text-color: #ffffff;
+  --text-color2: #e0f7ff;
+  --background-color: #0a0a12;
+  --background-color2: #121826;
+  --code-nav: rgb(20, 30, 40);
+  --hover-background: #243b55;
+  --border-color: 1px solid rgba(81, 129, 165, 0.2);
+  --accent-color: #00d6c4;
+  --accent-color2: #00e9c2;
+  --box-shadow: 0 2px 10px rgba(0, 191, 255, 0.3);
+}
+
+.light {
+  --text-color: #111;
+  --text-color2: #222;
+  --background-color: #ffffff;
+  --background-color2: #f0fbff;
+  --code-nav: #ffffff;
+  --hover-background: #cceeff;
+  --border-color: 1px solid rgba(0, 174, 255, 0.15);
+  --accent-color: #00ebd7;
+  --accent-color2: #00aaaa;
+  --box-shadow: 0 2px 7px rgba(0, 174, 255, 0.4);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 13px;
+  @media (max-width: 480px) {
+    display: none;
+  }
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(128, 128, 128, 0.534);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(128, 128, 128, 0.534);
+  border-radius: 20px;
+  border: 3px solid transparent;
+  background-clip: content-box;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(151, 151, 151, 0.534);
+}
+
+::-webkit-scrollbar-button:single-button:vertical:decrement,
+::-webkit-scrollbar-button:single-button:vertical:increment {
+  background-size: 15px 15px;
+  background-position: center;
+}
+
+::-webkit-scrollbar-button:single-button:vertical:decrement {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="goldenrod" fill-opacity="0.6" d="M7 14l5-5 5 5z"/></svg>');
+}
+
+::-webkit-scrollbar-button:single-button:vertical:increment {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="goldenrod" fill-opacity="0.6" d="M7 10l5 5 5-5z"/></svg>');
+}
