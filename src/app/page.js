@@ -24,7 +24,7 @@ export default function Home() {
   const category = [
     {
       name: "Rings",
-      img: "/photos/rings.webp",
+      img: "/photos/Rings.webp",
       desc: "Elegant designs for every occasion.",
     },
     {
@@ -34,22 +34,22 @@ export default function Home() {
     },
     {
       name: "Pendants",
-      img: "/photos/pendants.webp",
+      img: "/photos/Pendants.webp",
       desc: "Graceful centerpieces for your look.",
     },
     {
       name: "Bracelets",
-      img: "/photos/bracelets.webp",
+      img: "/photos/Bracelets.webp",
       desc: "Delicate wrist adornments.",
     },
     {
       name: "Bangles",
-      img: "/photos/bangles.webp",
+      img: "/photos/Bangles.webp",
       desc: "Bold, circular statements.",
     },
     {
       name: "Necklaces",
-      img: "/photos/necklaces.webp",
+      img: "/photos/Necklaces.webp",
       desc: "Striking neckwear that shines.",
     },
   ];
