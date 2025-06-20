@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Geer - Modern E-commerce Website
 
-## Getting Started
+A modern, high-performance e-commerce website built with Next.js, inspired by [geer.in](https://geer.in).
 
-First, run the development server:
+## 🚀 Features
+
+### Frontend (Next.js + React)
+
+- Product Listing Page (`/products`) with search & filter
+- Individual Product Page (`/products/[id]`) with detailed info
+- Responsive, mobile-friendly design
+- Modern UI with gradients, animations, hover effects
+- Search by name/description, filter by category
+- Navigation with active states
+- **State Management**: Redux for global state
+- **Icons**: React Icons for UI elements
+- **Styling**: SCSS modules for modular, maintainable styles
+
+### Backend (Next.js API Routes)
+
+- GET `/api/products` - fetch all products
+- POST `/api/products` - add new products
+- GET `/api/products/[id]` - get product details
+- DELETE `/api/products/[id]` - delete product
+- Data persistence via JSON file (`data/products.json`)
+
+### Admin Features
+
+- Admin Panel (`/admin`) to add new products with validation
+- Delete products from product detail page
+- Real-time updates reflected site-wide
+
+## ⚙️ SEO & Performance
+
+- ✅ `robots.txt` added (`/public/robots.txt`) to guide search engine crawlers
+- ✅ `sitemap.xml` auto-generated using `next-sitemap` (`/public/sitemap.xml`)
+- ✅ Meta tags (`title`, `description`, `keywords`, Open Graph) for better sharing & discoverability
+- ✅ Optimized Next.js image usage
+- ✅ Semantic HTML and structured heading usage
+
+## 🛠️ Tech Stack
+
+- **Frontend**: Next.js, React, Redux, React Icons, SCSS modules
+- **Backend**: Next.js API Routes
+- **Styling**: SCSS with gradients & animations
+- **Data Storage**: JSON file (easy DB swap)
+- **Images**: Unsplash
+
+## 📦 Installation
 
 ```bash
+git clone <repository-url>
+cd geer
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+"# geer" 
