@@ -49,7 +49,7 @@ A modern, high-performance e-commerce website built with Next.js, inspired by [g
 ## 📦 Installation
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/SantoshThapa9/geer-intern-assignment
 cd geer
 npm install
 npm run dev
