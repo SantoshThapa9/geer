@@ -83,7 +83,7 @@ export default function Home() {
         <section className={styles.hero}>
           <div className={styles.heroContent}>
             <h1 className={styles.heroTitle}>
-              Discover Exquisite{" "}
+              Discover Exquisite
               <span className={styles.brand}>Diamond Jewellery</span>
             </h1>
             <p className={styles.heroSubtitle}>
